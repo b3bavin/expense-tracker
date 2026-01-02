@@ -13,7 +13,7 @@ LIMIT_FILE = "limit.txt"
 MONTH_FILE = "month.txt"
 
 # Predefined categories
-CATEGORIES = ["Food", "Travel", "Study", "Entertainment", "Others"]
+CATEGORIES = ["Food", "Travel", "Shopping", "Entertainment", "Others"]
 
 # Current month in YYYY-MM format
 current_month = datetime.now().strftime("%Y-%m")
@@ -211,3 +211,4 @@ tk.Button(root, text="Category Pie Chart", command=show_pie_chart).pack(pady=5)
 load_expenses()
 
 root.mainloop()
+
